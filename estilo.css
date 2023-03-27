@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/1987868.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px rgba(245, 0, 0, 0.589);
+    font-size: 26px;
+    font-family: "i be back"
+}
+
+h1{
+    color:  rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(255, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    max-width: 500px;
+    margin-left: 30%;
+    background-color: rgba(255, 255, 255, 0.295);
+    font-size: 30px;
+}
+
+button{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid;
+    font-family: "i be back"
+}
+
+.corpo{
+    text-align: center;
+    margin-top: 15%;
+    border: transparent;
+    background-color: rgba(128, 128, 128, 0.507);
+    border-radius: 25px;
+    max-width: 360px;
+    margin-left: 35%;
+    color: black;
+}
+
+@font-face{
+    font-family: 'i be back';
+    src: url(TERMINAT.TTF) format("opentype"),url(TERMINAT.TTF)
+    format("truetype");
+    font-weight: normal;
+    font-style: normal; 
+}
+
+footer{
+    border: 1px solid black;
+    font-size: 15px;
+    position: absolute;
+    bottom: 2%;
+    background-color: rgba(128, 128, 128, 0.507);
+}

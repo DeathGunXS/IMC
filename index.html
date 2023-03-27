@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>IMC</title>
+</head>
+
+<body>
+    <h1>IMC (INDICE DE MASSA CORPORAL)</h1>
+
+    <div class="corpo">
+
+    <label for="peso">PESO (KG)</label>
+    <input type="number" id="peso" name="peso">
+    <br>
+
+    <label for="altura">ALTURA(ALT)</label>
+    <input type="number" id="altura" name="altura">
+   <br>
+
+    <button onclick="calcularimc()">CALCULAR IMC</button>
+    
+
+    <p>SEU INDICE DE MASSA CORPORAL E... <span id="resultado"></span></p>
+
+    <script>
+        function calcularimc() {
+            const peso = document.getElementById ("peso").value;
+            const altura = document.getElementById ("altura").value;
+            const imc = peso / (altura **2)
+            document.getElementById ("resultado").textContent = imc. toFixed (2);
+        }
+    </script>
+</div>
+
+<footer>DESIGN DE BRYAN REICHERT&copy; TODOS OS DIREITOS RESERVADOS A SKYNET.CO </footer>
+
+
+
+</body>
+
+</html>
